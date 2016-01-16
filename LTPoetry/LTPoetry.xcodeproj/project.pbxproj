@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E247DAF1C41621300847B0D /* LTCategoryIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E247DAE1C41621300847B0D /* LTCategoryIntroductionViewController.m */; };
+		8E5DD76A1C3FC6D600E2DE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5DD7691C3FC6D600E2DE3C /* main.m */; };
+		8E5DD76D1C3FC6D600E2DE3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5DD76C1C3FC6D600E2DE3C /* AppDelegate.m */; };
+		8E5DD7731C3FC6D600E2DE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5DD7711C3FC6D600E2DE3C /* Main.storyboard */; };
+		8E5DD7751C3FC6D600E2DE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5DD7741C3FC6D600E2DE3C /* Assets.xcassets */; };
+		8E5DD7781C3FC6D600E2DE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5DD7761C3FC6D600E2DE3C /* LaunchScreen.storyboard */; };
+		8E5DD7871C3FC7C700E2DE3C /* LTMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5DD7861C3FC7C700E2DE3C /* LTMainTableViewController.m */; };
+		8E5DD78A1C3FCB4700E2DE3C /* LTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5DD7891C3FCB4700E2DE3C /* LTTableViewCell.m */; };
+		8E6DF8261C412759006FC1CB /* LTPoemCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8251C412759006FC1CB /* LTPoemCategory.m */; };
+		8E6DF8291C412779006FC1CB /* LTPoem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8281C412779006FC1CB /* LTPoem.m */; };
+		8E6DF8651C412DA5006FC1CB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6DF8641C412DA5006FC1CB /* libsqlite3.0.tbd */; };
+		8E6DF88F1C412E02006FC1CB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8681C412E02006FC1CB /* FMDatabase.m */; };
+		8E6DF8901C412E02006FC1CB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF86A1C412E02006FC1CB /* FMDatabaseAdditions.m */; };
+		8E6DF8911C412E02006FC1CB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF86C1C412E02006FC1CB /* FMDatabasePool.m */; };
+		8E6DF8921C412E02006FC1CB /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF86E1C412E02006FC1CB /* FMDatabaseQueue.m */; };
+		8E6DF8931C412E02006FC1CB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8711C412E02006FC1CB /* FMResultSet.m */; };
+		8E6DF8951C412E02006FC1CB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8761C412E02006FC1CB /* MASCompositeConstraint.m */; };
+		8E6DF8961C412E02006FC1CB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8791C412E02006FC1CB /* MASConstraint.m */; };
+		8E6DF8971C412E02006FC1CB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF87B1C412E02006FC1CB /* MASConstraintMaker.m */; };
+		8E6DF8981C412E02006FC1CB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF87D1C412E02006FC1CB /* MASLayoutConstraint.m */; };
+		8E6DF8991C412E02006FC1CB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8811C412E02006FC1CB /* MASViewAttribute.m */; };
+		8E6DF89A1C412E02006FC1CB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8831C412E02006FC1CB /* MASViewConstraint.m */; };
+		8E6DF89B1C412E02006FC1CB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8851C412E02006FC1CB /* NSArray+MASAdditions.m */; };
+		8E6DF89C1C412E02006FC1CB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8881C412E02006FC1CB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		8E6DF89D1C412E02006FC1CB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF88A1C412E02006FC1CB /* View+MASAdditions.m */; };
+		8E6DF89E1C412E02006FC1CB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF88D1C412E02006FC1CB /* ViewController+MASAdditions.m */; };
+		8E6DF8A21C412E7C006FC1CB /* LTDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8A11C412E7C006FC1CB /* LTDBManager.m */; };
+		8E6DF8A51C412F22006FC1CB /* Poetry.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E6DF8A41C412F22006FC1CB /* Poetry.bundle */; };
+		8E6DF8A81C4143C3006FC1CB /* LTPeomListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8A71C4143C3006FC1CB /* LTPeomListTableViewController.m */; };
+		8E6DF8AB1C4156E5006FC1CB /* LTPoemDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DF8AA1C4156E5006FC1CB /* LTPoemDetailTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E247DAD1C41621300847B0D /* LTCategoryIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCategoryIntroductionViewController.h; sourceTree = "<group>"; };
+		8E247DAE1C41621300847B0D /* LTCategoryIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTCategoryIntroductionViewController.m; sourceTree = "<group>"; };
+		8E5DD7651C3FC6D600E2DE3C /* LTPoetry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTPoetry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5DD7691C3FC6D600E2DE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E5DD76B1C3FC6D600E2DE3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E5DD76C1C3FC6D600E2DE3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E5DD7721C3FC6D600E2DE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E5DD7741C3FC6D600E2DE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E5DD7771C3FC6D600E2DE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E5DD7791C3FC6D600E2DE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5DD7851C3FC7C700E2DE3C /* LTMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMainTableViewController.h; sourceTree = "<group>"; };
+		8E5DD7861C3FC7C700E2DE3C /* LTMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMainTableViewController.m; sourceTree = "<group>"; };
+		8E5DD7881C3FCB4700E2DE3C /* LTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTableViewCell.h; sourceTree = "<group>"; };
+		8E5DD7891C3FCB4700E2DE3C /* LTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTableViewCell.m; sourceTree = "<group>"; };
+		8E6DF8241C412759006FC1CB /* LTPoemCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPoemCategory.h; sourceTree = "<group>"; };
+		8E6DF8251C412759006FC1CB /* LTPoemCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPoemCategory.m; sourceTree = "<group>"; };
+		8E6DF8271C412779006FC1CB /* LTPoem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPoem.h; sourceTree = "<group>"; };
+		8E6DF8281C412779006FC1CB /* LTPoem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPoem.m; sourceTree = "<group>"; };
+		8E6DF8641C412DA5006FC1CB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8E6DF8671C412E02006FC1CB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		8E6DF8681C412E02006FC1CB /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		8E6DF8691C412E02006FC1CB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		8E6DF86A1C412E02006FC1CB /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		8E6DF86B1C412E02006FC1CB /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		8E6DF86C1C412E02006FC1CB /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		8E6DF86D1C412E02006FC1CB /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		8E6DF86E1C412E02006FC1CB /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		8E6DF86F1C412E02006FC1CB /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		8E6DF8701C412E02006FC1CB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		8E6DF8711C412E02006FC1CB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		8E6DF8751C412E02006FC1CB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		8E6DF8761C412E02006FC1CB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		8E6DF8771C412E02006FC1CB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		8E6DF8781C412E02006FC1CB /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		8E6DF8791C412E02006FC1CB /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		8E6DF87A1C412E02006FC1CB /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		8E6DF87B1C412E02006FC1CB /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		8E6DF87C1C412E02006FC1CB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		8E6DF87D1C412E02006FC1CB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		8E6DF87E1C412E02006FC1CB /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		8E6DF87F1C412E02006FC1CB /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		8E6DF8801C412E02006FC1CB /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		8E6DF8811C412E02006FC1CB /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		8E6DF8821C412E02006FC1CB /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		8E6DF8831C412E02006FC1CB /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		8E6DF8841C412E02006FC1CB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		8E6DF8851C412E02006FC1CB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		8E6DF8861C412E02006FC1CB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8E6DF8871C412E02006FC1CB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		8E6DF8881C412E02006FC1CB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		8E6DF8891C412E02006FC1CB /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		8E6DF88A1C412E02006FC1CB /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		8E6DF88B1C412E02006FC1CB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8E6DF88C1C412E02006FC1CB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		8E6DF88D1C412E02006FC1CB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		8E6DF8A01C412E7C006FC1CB /* LTDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTDBManager.h; sourceTree = "<group>"; };
+		8E6DF8A11C412E7C006FC1CB /* LTDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTDBManager.m; sourceTree = "<group>"; };
+		8E6DF8A41C412F22006FC1CB /* Poetry.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Poetry.bundle; sourceTree = "<group>"; };
+		8E6DF8A61C4143C3006FC1CB /* LTPeomListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPeomListTableViewController.h; sourceTree = "<group>"; };
+		8E6DF8A71C4143C3006FC1CB /* LTPeomListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPeomListTableViewController.m; sourceTree = "<group>"; };
+		8E6DF8A91C4156E5006FC1CB /* LTPoemDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPoemDetailTableViewController.h; sourceTree = "<group>"; };
+		8E6DF8AA1C4156E5006FC1CB /* LTPoemDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPoemDetailTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E5DD7621C3FC6D600E2DE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6DF8651C412DA5006FC1CB /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E5DD75C1C3FC6D600E2DE3C = {
+			isa = PBXGroup;
+			children = (
+				8E6DF8641C412DA5006FC1CB /* libsqlite3.0.tbd */,
+				8E5DD7671C3FC6D600E2DE3C /* LTPoetry */,
+				8E5DD7661C3FC6D600E2DE3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E5DD7661C3FC6D600E2DE3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E5DD7651C3FC6D600E2DE3C /* LTPoetry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E5DD7671C3FC6D600E2DE3C /* LTPoetry */ = {
+			isa = PBXGroup;
+			children = (
+				8E5DD77F1C3FC74A00E2DE3C /* Classes */,
+				8E5DD76B1C3FC6D600E2DE3C /* AppDelegate.h */,
+				8E5DD76C1C3FC6D600E2DE3C /* AppDelegate.m */,
+				8E5DD7711C3FC6D600E2DE3C /* Main.storyboard */,
+				8E5DD7741C3FC6D600E2DE3C /* Assets.xcassets */,
+				8E5DD7761C3FC6D600E2DE3C /* LaunchScreen.storyboard */,
+				8E5DD7791C3FC6D600E2DE3C /* Info.plist */,
+				8E5DD7681C3FC6D600E2DE3C /* Supporting Files */,
+			);
+			path = LTPoetry;
+			sourceTree = "<group>";
+		};
+		8E5DD7681C3FC6D600E2DE3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E5DD7691C3FC6D600E2DE3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E5DD77F1C3FC74A00E2DE3C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E5DD7801C3FC79A00E2DE3C /* Controllers */,
+				8E6DF8A31C412F19006FC1CB /* Resources */,
+				8E5DD7811C3FC79A00E2DE3C /* Libraries */,
+				8E5DD7821C3FC79A00E2DE3C /* Models */,
+				8E5DD7831C3FC79A00E2DE3C /* Utilities */,
+				8E5DD7841C3FC79A00E2DE3C /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8E5DD7801C3FC79A00E2DE3C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E5DD7851C3FC7C700E2DE3C /* LTMainTableViewController.h */,
+				8E5DD7861C3FC7C700E2DE3C /* LTMainTableViewController.m */,
+				8E6DF8A61C4143C3006FC1CB /* LTPeomListTableViewController.h */,
+				8E6DF8A71C4143C3006FC1CB /* LTPeomListTableViewController.m */,
+				8E6DF8A91C4156E5006FC1CB /* LTPoemDetailTableViewController.h */,
+				8E6DF8AA1C4156E5006FC1CB /* LTPoemDetailTableViewController.m */,
+				8E247DAD1C41621300847B0D /* LTCategoryIntroductionViewController.h */,
+				8E247DAE1C41621300847B0D /* LTCategoryIntroductionViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8E5DD7811C3FC79A00E2DE3C /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8E6DF8661C412E02006FC1CB /* fmdb */,
+				8E6DF8721C412E02006FC1CB /* Masonry */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		8E5DD7821C3FC79A00E2DE3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E6DF8241C412759006FC1CB /* LTPoemCategory.h */,
+				8E6DF8251C412759006FC1CB /* LTPoemCategory.m */,
+				8E6DF8271C412779006FC1CB /* LTPoem.h */,
+				8E6DF8281C412779006FC1CB /* LTPoem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E5DD7831C3FC79A00E2DE3C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8E6DF8A01C412E7C006FC1CB /* LTDBManager.h */,
+				8E6DF8A11C412E7C006FC1CB /* LTDBManager.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8E5DD7841C3FC79A00E2DE3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E5DD7881C3FCB4700E2DE3C /* LTTableViewCell.h */,
+				8E5DD7891C3FCB4700E2DE3C /* LTTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E6DF8661C412E02006FC1CB /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				8E6DF8671C412E02006FC1CB /* FMDatabase.h */,
+				8E6DF8681C412E02006FC1CB /* FMDatabase.m */,
+				8E6DF8691C412E02006FC1CB /* FMDatabaseAdditions.h */,
+				8E6DF86A1C412E02006FC1CB /* FMDatabaseAdditions.m */,
+				8E6DF86B1C412E02006FC1CB /* FMDatabasePool.h */,
+				8E6DF86C1C412E02006FC1CB /* FMDatabasePool.m */,
+				8E6DF86D1C412E02006FC1CB /* FMDatabaseQueue.h */,
+				8E6DF86E1C412E02006FC1CB /* FMDatabaseQueue.m */,
+				8E6DF86F1C412E02006FC1CB /* FMDB.h */,
+				8E6DF8701C412E02006FC1CB /* FMResultSet.h */,
+				8E6DF8711C412E02006FC1CB /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		8E6DF8721C412E02006FC1CB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				8E6DF8741C412E02006FC1CB /* Masonry */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		8E6DF8741C412E02006FC1CB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				8E6DF8751C412E02006FC1CB /* MASCompositeConstraint.h */,
+				8E6DF8761C412E02006FC1CB /* MASCompositeConstraint.m */,
+				8E6DF8771C412E02006FC1CB /* MASConstraint+Private.h */,
+				8E6DF8781C412E02006FC1CB /* MASConstraint.h */,
+				8E6DF8791C412E02006FC1CB /* MASConstraint.m */,
+				8E6DF87A1C412E02006FC1CB /* MASConstraintMaker.h */,
+				8E6DF87B1C412E02006FC1CB /* MASConstraintMaker.m */,
+				8E6DF87C1C412E02006FC1CB /* MASLayoutConstraint.h */,
+				8E6DF87D1C412E02006FC1CB /* MASLayoutConstraint.m */,
+				8E6DF87E1C412E02006FC1CB /* Masonry.h */,
+				8E6DF87F1C412E02006FC1CB /* MASUtilities.h */,
+				8E6DF8801C412E02006FC1CB /* MASViewAttribute.h */,
+				8E6DF8811C412E02006FC1CB /* MASViewAttribute.m */,
+				8E6DF8821C412E02006FC1CB /* MASViewConstraint.h */,
+				8E6DF8831C412E02006FC1CB /* MASViewConstraint.m */,
+				8E6DF8841C412E02006FC1CB /* NSArray+MASAdditions.h */,
+				8E6DF8851C412E02006FC1CB /* NSArray+MASAdditions.m */,
+				8E6DF8861C412E02006FC1CB /* NSArray+MASShorthandAdditions.h */,
+				8E6DF8871C412E02006FC1CB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				8E6DF8881C412E02006FC1CB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				8E6DF8891C412E02006FC1CB /* View+MASAdditions.h */,
+				8E6DF88A1C412E02006FC1CB /* View+MASAdditions.m */,
+				8E6DF88B1C412E02006FC1CB /* View+MASShorthandAdditions.h */,
+				8E6DF88C1C412E02006FC1CB /* ViewController+MASAdditions.h */,
+				8E6DF88D1C412E02006FC1CB /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		8E6DF8A31C412F19006FC1CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E6DF8A41C412F22006FC1CB /* Poetry.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E5DD7641C3FC6D600E2DE3C /* LTPoetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5DD77C1C3FC6D600E2DE3C /* Build configuration list for PBXNativeTarget "LTPoetry" */;
+			buildPhases = (
+				8E5DD7611C3FC6D600E2DE3C /* Sources */,
+				8E5DD7621C3FC6D600E2DE3C /* Frameworks */,
+				8E5DD7631C3FC6D600E2DE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTPoetry;
+			productName = LTPoetry;
+			productReference = 8E5DD7651C3FC6D600E2DE3C /* LTPoetry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E5DD75D1C3FC6D600E2DE3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Latte_Bear;
+				TargetAttributes = {
+					8E5DD7641C3FC6D600E2DE3C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7MC978XNU9;
+					};
+				};
+			};
+			buildConfigurationList = 8E5DD7601C3FC6D600E2DE3C /* Build configuration list for PBXProject "LTPoetry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E5DD75C1C3FC6D600E2DE3C;
+			productRefGroup = 8E5DD7661C3FC6D600E2DE3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E5DD7641C3FC6D600E2DE3C /* LTPoetry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E5DD7631C3FC6D600E2DE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6DF8A51C412F22006FC1CB /* Poetry.bundle in Resources */,
+				8E5DD7781C3FC6D600E2DE3C /* LaunchScreen.storyboard in Resources */,
+				8E5DD7751C3FC6D600E2DE3C /* Assets.xcassets in Resources */,
+				8E5DD7731C3FC6D600E2DE3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E5DD7611C3FC6D600E2DE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6DF8291C412779006FC1CB /* LTPoem.m in Sources */,
+				8E6DF8261C412759006FC1CB /* LTPoemCategory.m in Sources */,
+				8E5DD7871C3FC7C700E2DE3C /* LTMainTableViewController.m in Sources */,
+				8E6DF88F1C412E02006FC1CB /* FMDatabase.m in Sources */,
+				8E6DF8951C412E02006FC1CB /* MASCompositeConstraint.m in Sources */,
+				8E6DF8911C412E02006FC1CB /* FMDatabasePool.m in Sources */,
+				8E6DF89A1C412E02006FC1CB /* MASViewConstraint.m in Sources */,
+				8E6DF8921C412E02006FC1CB /* FMDatabaseQueue.m in Sources */,
+				8E6DF89D1C412E02006FC1CB /* View+MASAdditions.m in Sources */,
+				8E6DF89C1C412E02006FC1CB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				8E6DF8981C412E02006FC1CB /* MASLayoutConstraint.m in Sources */,
+				8E6DF89E1C412E02006FC1CB /* ViewController+MASAdditions.m in Sources */,
+				8E247DAF1C41621300847B0D /* LTCategoryIntroductionViewController.m in Sources */,
+				8E6DF8971C412E02006FC1CB /* MASConstraintMaker.m in Sources */,
+				8E6DF8AB1C4156E5006FC1CB /* LTPoemDetailTableViewController.m in Sources */,
+				8E5DD76D1C3FC6D600E2DE3C /* AppDelegate.m in Sources */,
+				8E6DF8A81C4143C3006FC1CB /* LTPeomListTableViewController.m in Sources */,
+				8E5DD76A1C3FC6D600E2DE3C /* main.m in Sources */,
+				8E6DF8931C412E02006FC1CB /* FMResultSet.m in Sources */,
+				8E6DF8A21C412E7C006FC1CB /* LTDBManager.m in Sources */,
+				8E5DD78A1C3FCB4700E2DE3C /* LTTableViewCell.m in Sources */,
+				8E6DF89B1C412E02006FC1CB /* NSArray+MASAdditions.m in Sources */,
+				8E6DF8991C412E02006FC1CB /* MASViewAttribute.m in Sources */,
+				8E6DF8901C412E02006FC1CB /* FMDatabaseAdditions.m in Sources */,
+				8E6DF8961C412E02006FC1CB /* MASConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E5DD7711C3FC6D600E2DE3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5DD7721C3FC6D600E2DE3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E5DD7761C3FC6D600E2DE3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5DD7771C3FC6D600E2DE3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E5DD77A1C3FC6D600E2DE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E5DD77B1C3FC6D600E2DE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E5DD77D1C3FC6D600E2DE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTPoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.tarena.LTPoetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E5DD77E1C3FC6D600E2DE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTPoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.tarena.LTPoetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E5DD7601C3FC6D600E2DE3C /* Build configuration list for PBXProject "LTPoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5DD77A1C3FC6D600E2DE3C /* Debug */,
+				8E5DD77B1C3FC6D600E2DE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5DD77C1C3FC6D600E2DE3C /* Build configuration list for PBXNativeTarget "LTPoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5DD77D1C3FC6D600E2DE3C /* Debug */,
+				8E5DD77E1C3FC6D600E2DE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E5DD75D1C3FC6D600E2DE3C /* Project object */;
+}
